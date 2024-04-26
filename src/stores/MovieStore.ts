@@ -16,7 +16,6 @@ export const useMovieStore = defineStore('movieStore', () => {
   const movies = ref<Movie[]>([])
   const moviesInLocalStorage = localStorage.getItem('movies')
   if (moviesInLocalStorage) {
-    console.log(JSON.parse(moviesInLocalStorage))
     movies.value = JSON.parse(moviesInLocalStorage)._value
   }
 
