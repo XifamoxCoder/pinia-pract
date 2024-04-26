@@ -3,7 +3,7 @@ import {Movie, useMovieStore} from "./MovieStore.ts";
 import router from "../router";
 import {ref} from "vue";
 import axios, {AxiosResponse} from "axios";
-const url = 'https:api.themoviedb.org/3/search/movie?api_key=2e683cc170aa23eed45e819e5b79d288&query=';
+const url = `${process.env.VUE_APP_API_URL}search/movie?api_key=${process.env.VUE_APP_API_KEY}&query=`;
 
 export const useSearchStore = defineStore('searchStore', () => {
   const loader = ref<boolean>(false)
