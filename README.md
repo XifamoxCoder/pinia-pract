@@ -1,9 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# Movie Catalog App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Это простое веб-приложение для просмотра и управления каталогом фильмов. Приложение позволяет искать фильмы, добавлять их в список просмотренных и любимых.
 
-## Recommended Setup
+## Функциональности
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- Поиск фильмов по названию
+- Добавление фильмов в список просмотренных и любимых
+- Удаление фильмов из списка
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## Используемые технологии
+
+- Vue 3
+- TypeScript
+- Axios
+- Pinia
+
+## Установка
+
+1. Клонируйте репозиторий: `git clone https://github.com/XifamoxCoder/pinia-pract.git`
+2. Установите зависимости: `npm install`
+3. Запустите приложение: `npm run dev`
+
+## Демо
+
+Добавьте ссылку на демо-версию вашего приложения, если она доступна.
+
+## Примечание
+
+Если вы с РФ, необходимо использовать ВПН, для работы приложения
