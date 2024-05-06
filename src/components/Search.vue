@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Loader from '../components/Loader.vue'
 import {ref} from "vue";
-import {useSearchStore} from "../stores/SearchStore.ts";
+import {API_URL, useSearchStore} from "../stores/SearchStore.ts";
 import Movie from "./Movie.vue";
 
 

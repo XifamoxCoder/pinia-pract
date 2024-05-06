@@ -4,7 +4,6 @@ import Movie from '../components/Movie.vue'
 
 const movieStore = useMovieStore();
 
-
 </script>
 
 <template>
