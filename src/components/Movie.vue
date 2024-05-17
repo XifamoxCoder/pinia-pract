@@ -27,7 +27,7 @@ const watchedBtn = computed(() => {
       class="movie-img" />
     <div>
       <div class="movie-name">
-        {{ movie.original_title }} ({{ movie.release_date }})
+        {{ movie.original_title }} {{ movie.id }}  ({{ movie.release_date }})
       </div>
       <span class="movie-overview">{{ movie.overview }}</span>
       <div class="movie-buttons" v-if="!isSearch">
